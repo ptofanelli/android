@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Sorteador</string>
+    <string name="title_activity_dice_rolls">Last Dice Rolls</string>
+    <string name="title_activity_dice_roll">Roll Dices</string>
+    <string name="chess_clock_move">MOVE</string>
+    <string name="chess_clock_start">START</string>
+    <string name="chess_clock_stop">Stop</string>
+    <string name="dice_roll_roll_dices">Roll Dices</string>
+    <string name="chess_clock_setup_move">Move</string>
+    <string name="chess_clock_setup_match">Match</string>
+    <string name="chess_clock_setup_minutes">Minutes</string>
+    <string name="chess_clock_setup_seconds">Seconds</string>
+    <string name="dice_roll_setup_number_of_dices">Number of dices</string>
+</resources>
