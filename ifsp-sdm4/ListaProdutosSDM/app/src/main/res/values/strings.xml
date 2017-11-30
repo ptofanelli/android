@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">ListaProdutosSDM</string>
+    <string name="nome">Nome</string>
+    <string name="descricao">Descricao</string>
+    <string name="novo_produto">Novo Produto</string>
+    <string name="sair">Sair</string>
+    <string name="selecionar_imagem">Selecionar Imagem</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="salvar">Salvar</string>
+    <string name="nome_de_usuario">Nome de usuário</string>
+    <string name="senha">Senha</string>
+    <string name="entrar">Entrar</string>
+    <string name="primeiro_acesso">Primeiro acesso</string>
+    <string name="usuario_ja_configurado">Ja foi configurado esse nome de usuario para este aplicativo</string>
+    <string name="usuario_autenticado">Dados autenticados com sucesso</string>
+    <string name="erro_autenticacao">Nome de usuário ou senha nao conferem</string>
+    <string name="nenhum_ususario_cadastrado">Nao há usuário cadastrado</string>
+    <string name="menu_novo_usuario">Novo Usuario</string>
+    <string name="usuario_cadastrado_sucesso">Usuario cadastrado com suceso!</string>
+    <string name="cadastro_usuario_insira_nome_senha">Insira nome de usuario e senha</string>
+</resources>
