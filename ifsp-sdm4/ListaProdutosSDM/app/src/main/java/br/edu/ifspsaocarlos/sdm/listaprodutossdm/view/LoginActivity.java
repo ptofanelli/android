@@ -32,7 +32,7 @@ public class LoginActivity extends AppCompatActivity {
     private EditText senhaEditText;
     private CheckBox primeiroAcessoCheckBox;
 
-    private static SharedPreferences sharedPreferences;
+    private SharedPreferences sharedPreferences;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -41,7 +41,7 @@ public class LoginActivity extends AppCompatActivity {
 
         bindViews();
 
-        sharedPreferences = getPreferences(Context.MODE_PRIVATE);
+        sharedPreferences = getSharedPreferences("usuarios", Context.MODE_PRIVATE);
         usuariosCadastrados = carregarUsuarios();
     }
 
@@ -124,7 +124,9 @@ public class LoginActivity extends AppCompatActivity {
         editor.commit();
     }
 
+    /*
     public static SharedPreferences getSharedPreferences() {
         return  sharedPreferences;
     }
+    */
 }

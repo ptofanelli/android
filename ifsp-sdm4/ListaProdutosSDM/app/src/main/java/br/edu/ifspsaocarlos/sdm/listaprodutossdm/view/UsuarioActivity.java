@@ -34,7 +34,8 @@ public class UsuarioActivity extends AppCompatActivity {
         bindViews();
 
         //sharedPreferences = getPreferences(Context.MODE_PRIVATE);
-        sharedPreferences = LoginActivity.getSharedPreferences();
+        sharedPreferences = getSharedPreferences("usuarios", Context.MODE_PRIVATE);
+        //sharedPreferences = LoginActivity.getSharedPreferences();
         usuariosCadastrados = carregarUsuarios();
     }
 
