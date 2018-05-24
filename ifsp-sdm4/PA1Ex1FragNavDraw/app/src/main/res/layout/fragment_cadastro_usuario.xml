@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/nome_completo_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nome completo"/>
+
+    <EditText
+        android:id="@+id/usuario_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Usuário"/>
+
+    <EditText
+        android:id="@+id/senha_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:hint="Senha"/>
+
+    <Button
+        android:id="@+id/salvar_cadastro_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Salvar"/>
+
+</LinearLayout>

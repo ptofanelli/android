@@ -76,8 +76,8 @@ public class DiceRollsActivity extends AppCompatActivity {
 
         final EditText diceCountEditText = (EditText) dialogView.findViewById(R.id.dice_count_edittext);
 
-        dialogBuilder.setTitle("Roll Dice Setup");
-        dialogBuilder.setMessage("Set the values below");
+        dialogBuilder.setTitle(R.string.dice_roll_setup_dialog_title);
+        dialogBuilder.setMessage(R.string.dice_roll_setup_dialog_desc);
         dialogBuilder.setPositiveButton("Done", new DialogInterface.OnClickListener() {
             public void onClick(DialogInterface dialog, int whichButton) {
                 //do something with edt.getText().toString();

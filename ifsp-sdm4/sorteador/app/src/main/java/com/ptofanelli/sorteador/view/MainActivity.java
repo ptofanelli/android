@@ -61,8 +61,8 @@ public class MainActivity extends AppCompatActivity {
         final RadioButton timeByMove = (RadioButton)  dialogView.findViewById(R.id.time_by_move_radio);
         final RadioButton timeByMatch = (RadioButton)  dialogView.findViewById(R.id.time_by_match_radio);
 
-        dialogBuilder.setTitle("Chess Clock");
-        dialogBuilder.setMessage("Set the values below");
+        dialogBuilder.setTitle(R.string.chess_clock_setup_dialog_title);
+        dialogBuilder.setMessage(R.string.chess_clock_setup_dialog_desc);
         dialogBuilder.setPositiveButton("Done", new DialogInterface.OnClickListener() {
             public void onClick(DialogInterface dialog, int whichButton) {
                 //do something with edt.getText().toString();

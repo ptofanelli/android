@@ -45,7 +45,7 @@ public class DiceRollArrayAdapter extends ArrayAdapter<DiceRollResult> {
 
 
         DiceRollResult diceRoll = getItem(position);
-        holder.diceRollTextView.setText(diceRoll.toString());
+        holder.diceRollTextView.setText(diceRoll.toString() + " = " + diceRoll.getTotal());
 
         return v;
 

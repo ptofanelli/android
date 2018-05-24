@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="br.edu.ifspsaocarlos.sdm.mensageirows.view.NovoContatoActivity"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/novo_contato_nome_completo"
+        android:hint="Nome completo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/novo_contato_apelido"
+        android:hint="Apelido"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/novo_contato_cadastrar"
+        android:text="cadastrar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

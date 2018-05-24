@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Sorteador</string>
+    <string name="app_name">Board Game Helper</string>
     <string name="title_activity_dice_rolls">Last Dice Rolls</string>
     <string name="title_activity_dice_roll">Roll Dices</string>
     <string name="chess_clock_move">MOVE</string>
@@ -11,4 +11,8 @@
     <string name="chess_clock_setup_minutes">Minutes</string>
     <string name="chess_clock_setup_seconds">Seconds</string>
     <string name="dice_roll_setup_number_of_dices">Number of dices</string>
+    <string name="dice_roll_setup_dialog_title">Roll Dice Setup</string>
+    <string name="dice_roll_setup_dialog_desc">Set the values below (1 to 6)</string>
+    <string name="chess_clock_setup_dialog_title">Chess Clock</string>
+    <string name="chess_clock_setup_dialog_desc">Set the values below</string>
 </resources>

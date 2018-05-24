@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="br.edu.ifspsaocarlos.sdm.buscarmensagensvolleysdm.MainActivity"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/et_remetente"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ID Remetente"/>
+
+    <EditText
+        android:id="@+id/et_destinatario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ID Destinatario"/>
+
+    <EditText
+        android:id="@+id/et_ultima_mensagem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ID da ultima mensagem"/>
+
+    <Button
+        android:id="@+id/bt_buscar_mensagens"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="buscarMensagens"
+        android:text="Buscar Mensagens"/>
+
+</LinearLayout>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">PA1Ex1FragNavDraw</string>
+    <string name="menu_aberto">Menu foi aberto</string>
+    <string name="menu_fechado">Menu foi fechado</string>
+</resources>
